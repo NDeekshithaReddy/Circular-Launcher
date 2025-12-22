@@ -1,0 +1,17 @@
+android_library_import {
+    name: "SettingsLibIconLoaderLib-15.0.13",
+    aars: ["app/libs/SettingsLibIconLoaderLib-15.0.13.aar"],
+    sdk_version: "system_current",
+}
+
+
+android_app {
+    name: "CircleLauncher",
+    srcs: ["app/src/**/*.java"],
+    resource_dirs: ["app/src/main/res"],
+    manifest: "app/src/main/AndroidManifest.xml",
+    static_libs: ["SettingsLibIconLoaderLib-15.0.13"],
+    privileged: false,
+    sdk_version: "system_current",
+    vendor: true,
+}
