@@ -5,7 +5,8 @@ A custom Android launcher UI that displays installed applications in interactive
 ---
 
 ## 📱 Demo Video
-https://github.com/NDeekshithaReddy/Circular-Launcher/blob/main/Launcher-demo.mp4
+![Demo](https://github.com/NDeekshithaReddy/Circular-Launcher/raw/main/Launcher-demo.gif)
+
 ---
 
 ## ✨ Features
